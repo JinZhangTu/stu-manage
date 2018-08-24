@@ -1,0 +1,8 @@
+<!-- layout()法国法把纵模版layout.ejs中公用的 -->
+<% layout('layout') -%>
+
+
+  <!-- <form action="/logout" method="POST">
+    <button id="btnLogout" type="submit">注销</button>
+  </form> -->
+  <% block('footer').append('<script src="/javascripts/index.js"></script>') %>
